@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Styling the NAV bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  /* align-content: center; */
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.logo img {
+  border-radius: 80px;
+}
+.nav-links {
+  display: flex;
+  gap: 12px;
+}
+
+nav ul {
+  list-style-type: none;
+}
