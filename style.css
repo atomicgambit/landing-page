@@ -33,3 +33,8 @@ header {
   justify-content: space-between;
   padding: 12px;
 }
+
+/* Styling the book-section */
+.book-section {
+  display: flex;
+}
