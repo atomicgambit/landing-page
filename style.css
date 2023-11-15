@@ -1,26 +1,53 @@
 * {
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 /* Styling the NAV bar */
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 12px;
-  /* align-content: center; */
+  background-color: black;
+}
+
+#site-title {
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .logo {
   display: flex;
+  align-items: center;
   gap: 12px;
   flex-shrink: 0;
 }
 .logo img {
   border-radius: 80px;
 }
+
+/* Styling the NAV links */
+
 .nav-links {
   display: flex;
   gap: 12px;
+}
+
+.nav-links a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 nav ul {
