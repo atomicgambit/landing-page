@@ -26,3 +26,10 @@ nav {
 nav ul {
   list-style-type: none;
 }
+
+/* Styling the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
