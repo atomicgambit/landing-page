@@ -68,6 +68,8 @@ header {
   gap: 200px;
   padding: 12px;
   color: white;
+  margin-bottom: 40px;
+  background-color: ;
 }
 
 .left-header {
@@ -86,6 +88,35 @@ header h1 {
 }
 
 /* Styling the book-section */
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
 .book-section {
   display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.book-section img {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.book-section img:hover {
+  box-shadow: 0 0 10px 1px rgba(226, 85, 4, 0.8);
+}
+
+.book-section p {
+  text-align: center;
+  padding: 5px;
+  /* font-weight: bold; */
+  font-size: 1.5rem;
 }
